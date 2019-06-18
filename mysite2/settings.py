@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'blog',
-    'blogapp',
+    'polls.apps.PollsConfig',
 ]
 
 MIDDLEWARE = [
@@ -106,7 +106,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'     # 'zh-hans'  中文
+LANGUAGE_CODE = 'zh-hans'     # 'zh-hans'  'en-us'
 
 TIME_ZONE = 'Asia/Shanghai'
 
